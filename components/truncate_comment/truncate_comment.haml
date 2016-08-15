@@ -1,4 +1,4 @@
 .new-comment__truncation{ng-show: "commentIsLong()"}
-  .new-comment__gradient{ng-show: "!commentExpanded"}
-  .new-comment__show-more{ng-show: "!commentExpanded", ng-click: "toggleComment()", translate: "truncate_comment.show_more"}
-  .new-comment__show-less{ng-show: "commentExpanded", ng-click: "toggleComment()", translate: "truncate_comment.show_less"}
+  .new-comment__gradient{ng-show: "commentCollapsed"}
+  .new-comment__show-more{ng-show: "commentCollapsed", ng-click: "toggleComment()", translate: "truncate_comment.show_more"}
+  .new-comment__show-less{ng-show: "!commentCollapsed", ng-click: "toggleComment()", translate: "truncate_comment.show_less"}
