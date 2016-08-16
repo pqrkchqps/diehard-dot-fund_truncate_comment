@@ -5,6 +5,11 @@
    p:last-of-type { margin-bottom: 0px; }
 }
 
+.new-comment__body {
+  clear: both;
+  margin-right: 25px;
+}
+
 .new-comment__gradient {
   background-image: url(/img/gradient.png);
   background-repeat: repeat-x;
