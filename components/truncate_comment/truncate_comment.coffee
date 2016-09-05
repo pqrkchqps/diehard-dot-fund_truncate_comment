@@ -5,6 +5,7 @@ angular.module('loomioApp').directive 'truncateComment', ->
   templateUrl: 'generated/components/truncate_comment/truncate_comment.html'
   controller: ($scope, $timeout) ->
     commentHeight = 0
+    LONG_COMMENT_HEIGHT = 225
 
     $scope.toggleComment = ->
       angular.element($scope.commentElement()).toggleClass('new-comment__truncated')
