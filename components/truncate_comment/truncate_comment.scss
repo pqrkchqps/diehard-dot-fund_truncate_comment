@@ -2,7 +2,13 @@
    max-height: 180px;
    overflow: hidden;
    margin-bottom: 0 !important;
-   p:last-of-type { margin-bottom: 0px; }
+}
+
+.new-comment__truncation {
+  text-align: center;
+  line-height: 0;
+  display: block;
+  width: 100%;
 }
 
 .new-comment__body {
@@ -19,14 +25,12 @@
   pointer-events: none;
 }
 
-.new-comment__show-more,
-.new-comment__show-less {
+.new-comment__show-more {
   @include lmoBtnLink;
   @include fontSmall;
-  text-align: center;
-  line-height: 0;
-  margin-bottom: 20px;
   color: $link-color;
+  line-height: 0px;
+  margin-bottom: 20px;
 }
 
 .new-comment__footer {
