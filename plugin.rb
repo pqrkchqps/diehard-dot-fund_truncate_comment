@@ -1,5 +1,5 @@
 module Plugins
-  module Diehard_FundTruncateComment
+  module DiehardFundTruncateComment
     class Plugin < Plugins::Base
       setup! 'diehard-dot-fund_truncate_comment' do |plugin|
         plugin.enabled = true
