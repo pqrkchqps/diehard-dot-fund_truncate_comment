@@ -1,4 +1,4 @@
-angular.module('loomioApp').directive 'truncateComment', ->
+angular.module('diehard_fundApp').directive 'truncateComment', ->
   scope: {comment: '='}
   restrict: 'E'
   replace: true
