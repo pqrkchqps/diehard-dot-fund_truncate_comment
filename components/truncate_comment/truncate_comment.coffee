@@ -1,4 +1,4 @@
-angular.module('diehard_fundApp').directive 'truncateComment', ->
+angular.module('diehardFundApp').directive 'truncateComment', ->
   scope: {comment: '='}
   restrict: 'E'
   replace: true
